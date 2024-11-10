@@ -1,4 +1,6 @@
-NVIDIA Stock Prediction using LSTM
+**NVIDIA Stock Analysis and Prediction using LSTM**
+
+This repository containg a comprehensive analysis of the stock market NVDA data. The analysis covers historical price movements, correlations between different stocks, daily returns, moving averages, and risk assessment.
 
 NVIDIA's stock price is predicted over -some months- using an Long Short-Term Memory (LSTM) Machine Learning's model. The analysis covers historical price movements and sentiments data with Tweets about NVIDIA to improve prediction accuracy.
 
