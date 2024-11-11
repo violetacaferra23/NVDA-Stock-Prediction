@@ -21,7 +21,7 @@ The stock data is fetched from Yahoo Finance using the `pandas_datareader` and `
 1. **Closing prices over time:**
 Historical closing prices and volume of sales are visualized to observe trends and patterns.
 
-![Closing_prices.png] https://github.com/violetacaferra23/NVDA-Stock-Prediction/blob/main/Closing_prices.png
+![Closing_prices.png]https://github.com/violetacaferra23/NVDA-Stock-Prediction/blob/main/Closing_prices.png
 
 The stock price shows a significant upward trend, particularly from 2020 onward. This suggests strong long-term growth, likely driven by NVIDIA's strategic positioning in industries like gaming, AI, and data centers.
 
@@ -36,7 +36,7 @@ We see in graph that the best values to measure the moving average ir 20 days be
 
 3. **Bollinger data:**
 
-![bollinger data.png] https://github.com/violetacaferra23/NVDA-Stock-Prediction/blob/main/bollinger%20data.png
+![bollinger data.png]https://github.com/violetacaferra23/NVDA-Stock-Prediction/blob/main/bollinger%20data.png
 
 Bollinger Bands are a technical analysis tool that plots bands around a moving average. They help identify overbought and oversold conditions, as well as potential trend reversals. Wider bands indicate higher volatility, while narrower bands suggest lower volatility.
 
