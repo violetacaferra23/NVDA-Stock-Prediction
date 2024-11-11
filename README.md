@@ -20,28 +20,38 @@ The stock data is fetched from Yahoo Finance using the `pandas_datareader` and `
 
 1. **Closing prices over time:**
 Historical closing prices and volume of sales are visualized to observe trends and patterns.
+
 ![image] https://github.com/violetacaferra23/NVDA-Stock-Prediction/blob/main/Closing_prices.png
+
 The stock price shows a significant upward trend, particularly from 2020 onward. This suggests strong long-term growth, likely driven by NVIDIA's strategic positioning in industries like gaming, AI, and data centers.
 
 The stock shows periods of volatility, particularly in the sharp peaks and dips observed in 2022 and 2023. These fluctuations might reflect the impact of market events or investor sentiment regarding NVIDIA's potential in the tech sector.
 
 2. **Moving averages:**
 Moving averages for 20, and 50 days are calculated and plotted to understand the stock trends over different time periods.
+
 ![image]https://github.com/violetacaferra23/NVDA-Stock-Prediction/blob/main/Precio%20de%20cierre%20con%2020%20y%2050%20days.png
+
 We see in graph that the best values to measure the moving average ir 20 days because we still capture trends in the data without noise.
 
 3. **Bollinger data:**
-![image]https://github.com/violetacaferra23/NVDA-Stock-Prediction/blob/main/bollinger%20data.png
+
+![image] https://github.com/violetacaferra23/NVDA-Stock-Prediction/blob/main/bollinger%20data.png
+
 Bollinger Bands are a technical analysis tool that plots bands around a moving average. They help identify overbought and oversold conditions, as well as potential trend reversals. Wider bands indicate higher volatility, while narrower bands suggest lower volatility.
 
 4. **Relative strenght index:**
+
 ![image]https://github.com/violetacaferra23/NVDA-Stock-Prediction/blob/main/RSI.png
+
 * High Volatility: The frequent crossings of the overbought and oversold levels indicate significant price swings.
 * Upward Trend: The RSI consistently being in the overbought zone suggests a strong upward momentum, especially for growth stocks.
 * Trading Opportunities: Crossovers above 70 (overbought) or below 30 (oversold) can signal potential buy or sell opportunities, but should be confirmed with other indicators.
 
 5. **MACD(Moving Average Convergence/Divergence):**
+
 ![image]https://github.com/violetacaferra23/NVDA-Stock-Prediction/blob/main/macd.png
+
 * The MACD chart indicates a strong bullish trend for NVIDIA, especially in 2023, as reflected in the price history chart.
 * The peaks in the MACD histogram in 2023 and early 2024 show increased momentum, suggesting potential buying opportunities during these times.
 * However, the recent fluctuations in the MACD line in late 2024 suggest that the trend could be more volatile moving forward.
@@ -76,7 +86,9 @@ MAE: 0.015 (example value, adjust based on actual results)
 These values suggest the model has a reasonable level of accuracy in capturing trends but might have limitations in exact price prediction.
 
 ### Sample Prediction Plot
+
 ![image]https://github.com/violetacaferra23/NVDA-Stock-Prediction/blob/main/model%20lstm%20and%20prediction.png
+
 *Note: The above plot compares the model's predicted stock prices against actual historical prices. This helps visualize how well the model can follow the stock's trend over time.*
 
 ### Results
