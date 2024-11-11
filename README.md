@@ -5,8 +5,10 @@ This repository containg a comprehensive analysis of the stock market NVDA data.
 ## Table of contents
 
 1. [Data Exploration](#data-exploration)
-2. [Stock Price Prediction](#stock-price-prediction)
-3. [Future Work](#future-work)
+2. [Model Architecture](#model-architecture)
+3. [Hyperparameters](#hyperparameters)
+4. [Predictions and results](#predictions-and-results)
+5. [Future Work](#future-work)
 
 ## Data exploration
 
@@ -49,14 +51,14 @@ Bollinger Bands are a technical analysis tool that plots bands around a moving a
 An LSTM model is used to predict future stock prices. The model is trained using TensorFlow/Keras and configured with specific hyperparameters optimized for stock price prediction.
 
 
-### Model Architecture
+## Model Architecture
 
 The LSTM model consists of:
 1. **LSTM Layers** - Captures the temporal dependencies in stock price data.
 2. **Dense Layers** - Produces the final output, which is a predicted stock price.
 The model was trained using a mean squared error loss function and the Adam optimizer. The stock price data was normalized before training to improve performance and stability.
 
-### Hyperparameters
+## Hyperparameters
 
 The model is configured with the following hyperparameters:
 
@@ -66,7 +68,7 @@ The model is configured with the following hyperparameters:
 - **Epochs**: *e.g., 50* (number of complete passes through the training dataset)
 - **Dropout Rate**: *e.g., 0.2* (used in LSTM layers to prevent overfitting)
 
-### Prediction Results and Evaluation
+## Prediction Results and Evaluation
 
 The model’s predictions were evaluated using Mean Squared Error (MSE) and Mean Absolute Error (MAE). Here are some example results:
 
@@ -81,3 +83,7 @@ These values suggest the model has a reasonable level of accuracy in capturing t
 ### Results
 
 The model's performance was evaluated using mean squared error (MSE) and mean absolute error (MAE) metrics. Results indicate that the model can reasonably capture trends in stock price movements, though further optimization might improve accuracy.
+
+## Future work
+
+
